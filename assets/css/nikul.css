@@ -1,0 +1,30 @@
+.site__header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site__logo a {
+    background: linear-gradient(90deg, #0326FC 0%, #14192D 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 26px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li:last-child {
+    padding: 0;
+}
